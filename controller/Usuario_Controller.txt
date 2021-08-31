@@ -1,0 +1,18 @@
+  
+<?php
+class UsuarioController{
+
+    public function all(){        
+        
+        
+        $objeto = new Usuario();
+
+        
+        $usuarios = $objeto->all();
+
+        
+        include "view/usuarios.php";
+
+    }
+
+}
